@@ -7,7 +7,7 @@ export function Condition(props: {condition: ConditionProps}) {
         <>
         <img 
         className="w-28"
-        src={`../src/assets/weather-icons/${props.condition.svg}.svg`}
+        src={`./weather-icons/${props.condition.svg}.svg`}
         alt={props.condition.svg} />
         <div className="flex items-end gap-2">
             <Tooltip title={props.condition.tips[0]} size="sm" variant="plain" arrow={true}>

@@ -5,7 +5,7 @@ function SmallIcon(props: {detail: detail}) {
     return (
         <img 
         className="w-12"
-        src={`../src/assets/weather-icons/${props.detail.icon}.svg`}
+        src={`./weather-icons/${props.detail.icon}.svg`}
         alt={props.detail.name}/>
     )
 }
