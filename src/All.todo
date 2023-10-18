@@ -1,0 +1,48 @@
+API:
+    ✘ Call the API twice, 1. for the current day, 2. for the rest of the week @low @cancelled (10/4/2023, 4:47:12 PM)
+    ✘ RTK might and might not be needed @cancelled (10/17/2023, 10:48:48 PM)
+
+Redux:
+    ✔ save data in local storage.. search redux presist @done (10/17/2023, 10:48:43 PM)
+
+Weather Data Type:
+    ✔ Save it in a single file to acces it accross the app. (Redux) @high @done (10/4/2023, 4:47:22 PM)
+
+Top Section:
+    ✔ Fix the strip to provide information (based on the dateType and if it's gonna rain or snow) @done (10/17/2023, 10:48:41 PM)
+
+Condition Card:
+    ✔ Redisign it using joy @done (10/8/2023, 10:51:24 PM)
+    ✔ Changes on changing F or C temps @low @done (10/8/2023, 10:51:27 PM)
+    ✔ Redisign it to make it more compact @done (10/17/2023, 10:48:35 PM)
+
+Strip:
+    ✔ design it to work on sidebar and condition Card (just icon and info) @done (10/8/2023, 10:51:39 PM)
+    ✔ include (rain, wind, humidity, uv index, sunrise, sunset, fog, cloud, pressure, snow) @done (10/8/2023, 10:51:41 PM)
+    ✔ Redisign it to make it more compact @done (10/17/2023, 10:48:28 PM)
+    ✔ Implement different icons and names for different uv-inecies (low, medium, high, very high, extreme) @done (10/17/2023, 10:48:29 PM)
+    ✔ Create a Class didecated for these information and you provide the name and value and it will return the icon and the description @done (10/17/2023, 10:48:34 PM)
+
+Extra Info Card:
+    ✔ Design a card as a parent for the different kinds of data @done (10/17/2023, 10:48:25 PM)
+
+Side Bar:
+    ✔ Design and implement it with the mobile size in mind @critical @done (10/17/2023, 10:48:17 PM)
+    Search Bar:
+        ✔ Use an API to fetch cities and their names @done (10/17/2023, 10:48:20 PM)
+
+Fix Keys Error:
+    ✔ CurrentCondition @done (10/18/2023, 4:38:01 PM)
+    ✔ BottomSection @done (10/18/2023, 4:38:02 PM)
+    ✔ DoubleDetailCard @done (10/18/2023, 4:38:03 PM)
+    ✔ TopSection @done (10/18/2023, 4:38:03 PM)
+
+Final Touches:
+    ☐ Implement Dark Mode @high 
+    ☐ Implement a loading screen (Skeleton) @low 
+    ☐ Implement a Copyrights pop-up modal @high 
+    ☐ Implement a "recent selected cities" switcher
+    ✔ Rearrange stripes in the condition cards @done (10/18/2023, 4:38:17 PM)
+    ☐ Add More Stripes in CurrentCondition @today 
+    ☐ Add wind direction Value @low 
+    

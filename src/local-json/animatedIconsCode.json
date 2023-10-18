@@ -1,0 +1,194 @@
+{
+    "113": {
+        "day": "clear-day",
+        "night": "clear-night"
+    },
+    "116": {
+        "day": "partly-cloudy-day",
+        "night": "partly-cloudy-night"
+    },
+    "119": {
+        "day": "cloudy",
+        "night": "cloudy"
+    },
+    "122": {
+        "day": "overcast-day",
+        "night": "overcast-night"
+    },
+    "143": {
+        "day": "mist",
+        "night": "mist"
+    },
+    "176": {
+        "day": "extreme-day-rain",
+        "night": "extreme-night-rain"
+    },
+    "179": {
+        "day": "extreme-day-snow",
+        "night": "extreme-night-snow"
+    },
+    "182": {
+        "day": "extreme-day-sleet",
+        "night": "extreme-night-sleet"
+    },
+    "185": {
+        "day": "drizzle",
+        "night": "drizzle"
+    },
+    "200": {
+        "day": "thunderstorms-day-extreme",
+        "night": "thunderstorms-night-extreme"
+    },
+    "227": {
+        "day": "overcast-snow",
+        "night": "overcast-snow"
+    },
+    "230": {
+        "day": "extreme-day-snow",
+        "night": "extreme-night-snow"
+    },
+    "248": {
+        "day": "fog",
+        "night": "fog"
+    },
+    "260": {
+        "day": "extreme-fog",
+        "night": "extreme-fog"
+    },
+    "263": {
+        "day": "drizzle",
+        "night": "drizzle"
+    },
+    "266": {
+        "day": "drizzle",
+        "night": "drizzle"
+    },
+    "281": {
+        "day": "extreme-drizzle",
+        "night": "extreme-drizzle"
+    },
+    "284": {
+        "day": "extreme-drizzle",
+        "night": "extreme-drizzle"
+    },
+    "293": {
+        "day": "partly-cloudy-day-rain",
+        "night": "partly-cloudy-night-rain"
+    },
+    "296": {
+        "day": "rain",
+        "night": "rain"
+    },
+    "299": {
+        "day": "partly-cloudy-day-rain",
+        "night": "partly-cloudy-night-rain"
+    },
+    "302": {
+        "day": "rain",
+        "night": "rain"
+    },
+    "305": {
+        "day": "partly-cloudy-day-rain",
+        "night": "partly-cloudy-night-rain"
+    },
+    "308": {
+        "day": "rain",
+        "night": "rain"
+    },
+    "311": {
+        "day": "overcast-day-rain",
+        "night": "overcast-night-rain"
+    },
+    "314": {
+        "day": "overcast-day-rain",
+        "night": "overcast-night-rain"
+    },
+    "317": {
+        "day": "sleet",
+        "night": "sleet"
+    },
+    "320": {
+        "day": "sleet",
+        "night": "sleet"
+    },
+    "323": {
+        "day": "partly-cloudy-day-snow",
+        "night": "partly-cloudy-night-snow"
+    },
+    "326": {
+        "day": "snow",
+        "night": "snow"
+    },
+    "329": {
+        "day": "partly-cloudy-day-snow",
+        "night": "partly-cloudy-night-snow"
+    },
+    "332":{
+        "day": "snow",
+        "night": "snow"
+    },
+    "335":{
+        "day": "partly-cloudy-day-snow",
+        "night": "partly-cloudy-night-snow"
+    },
+    "338":{
+        "day": "snow",
+        "night": "snow"
+    },
+    "350":{
+        "day": "hail",
+        "night": "hail"
+    },
+    "353":{
+        "day": "overcast-day-rain",
+        "night": "overcast-night-rain"
+    },
+    "356":{
+        "day": "overcast-day-rain",
+        "night": "overcast-night-rain"
+    },
+    "359":{
+        "day": "extreme-day-rain",
+        "night": "extreme-night-rain"
+    },
+    "362":{
+        "day": "partly-cloudy-day-sleet",
+        "night": "partly-cloudy-night-sleet"
+    },
+    "365":{
+        "day": "partly-cloudy-day-sleet",
+        "night": "partly-cloudy-night-sleet"
+    },
+    "368":{
+        "day": "partly-cloudy-day-snow",
+        "night": "partly-cloudy-night-snow"
+    },
+    "371":{
+        "day": "partly-cloudy-day-snow",
+        "night": "partly-cloudy-night-snow"
+    },
+    "374":{
+        "day": "partly-cloudy-day-hail",
+        "night": "partly-cloudy-night-hail"
+    },
+    "377":{
+        "day": "extreme-day-hail",
+        "night": "extreme-night-hail"
+    },
+    "386":{
+        "day": "thunderstorms-day-extreme-rain",
+        "night": "thunderstorms-night-extreme-rain"
+    },
+    "389":{
+        "day": "thunderstorms-extreme-rain",
+        "night": "thunderstorms-extreme-rain"
+    },
+    "392":{
+        "day": "thunderstorms-day-extreme-snow",
+        "night": "thunderstorms-night-extreme-snow"
+    },
+    "395":{
+        "day": "thunderstorms-extreme-snow",
+        "night": "thunderstorms-extreme-snow"
+    }
+}

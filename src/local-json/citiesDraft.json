@@ -1,0 +1,68 @@
+{
+    "data": [
+      {
+        "id": 105933,
+        "wikiDataId": "Q31875721",
+        "type": "CITY",
+        "city": "Al Qatif",
+        "name": "Al Qatif",
+        "country": "Saudi Arabia",
+        "countryCode": "SA",
+        "region": "Eastern Province",
+        "regionCode": "04",
+        "regionWdId": "Q953508",
+        "latitude": 26.56542,
+        "longitude": 50.0089,
+        "population": 98259
+      },
+      {
+        "id": 3551112,
+        "wikiDataId": "Q12191403",
+        "type": "CITY",
+        "city": "Qatif",
+        "name": "Qatif",
+        "country": "Saudi Arabia",
+        "countryCode": "SA",
+        "region": "Eastern Province",
+        "regionCode": "04",
+        "regionWdId": "Q953508",
+        "latitude": 26.6,
+        "longitude": 49.96667,
+        "population": 94830
+      },
+      {
+        "id": 3476312,
+        "wikiDataId": "Q847660",
+        "type": "CITY",
+        "city": "Qatif governorate",
+        "name": "Qatif governorate",
+        "country": "Saudi Arabia",
+        "countryCode": "SA",
+        "region": "Eastern Province",
+        "regionCode": "04",
+        "regionWdId": "Q953508",
+        "latitude": 26.63333,
+        "longitude": 49.91667,
+        "population": 625092
+      },
+      {
+        "id": 3233896,
+        "wikiDataId": "Q20304731",
+        "type": "CITY",
+        "city": "Al Qatifah",
+        "name": "Al Qatifah",
+        "country": "Yemen",
+        "countryCode": "YE",
+        "region": "Hajjah Governorate",
+        "regionCode": "HJ",
+        "regionWdId": "Q328158",
+        "latitude": 16.179166666,
+        "longitude": 43.420833333,
+        "population": 8
+      }
+    ],
+    "metadata": {
+      "currentOffset": 0,
+      "totalCount": 4
+    }
+  }
