@@ -11,7 +11,7 @@ import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 
 export default function CitySearchBar() {
   const [searchTerm, setSearchTerm] = React.useState('');
-  const debouncedSearchTerm = useDebounce(searchTerm, 800);
+  const debouncedSearchTerm = useDebounce(searchTerm, 700);
   const [open, setOpen] = React.useState(false);
   const [results, setResults] = React.useState<CityData[]>([]);
   const [isSearching, setIsSearching] = React.useState(false);
@@ -59,8 +59,8 @@ export default function CitySearchBar() {
         onClose={() => {
           setOpen(false);
         }}
-        isOptionEqualToValue={(option, value) => option.name === value.name && option.countryCode === value.countryCode}
-        getOptionLabel={(option) => `${option.name}, ${option.countryCode}`}
+        isOptionEqualToValue={(option, value) => option.name === value.name && option.country === value.country}
+        getOptionLabel={(option) => `${option.name}, ${option.country}`}
         options={results}
         loading={isSearching}
         onInputChange={(_, v) => {setSearchTerm(v)}}

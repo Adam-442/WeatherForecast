@@ -2,11 +2,11 @@ import { CurrentCondition } from "./CurrentCondition";
 import CurrentLocation from "./CurrentLocation";
 import Searchbar from "./Searchbar";
 import FadeModalDialog from "./Modal";
-import ModeToggle from "../NightButton";
+import ModeToggle from "./NightButton";
 
 export default function Sidebar() {
     return (
-        <div className="lg:shadow-md p-4 h-screen max-customlg:min-h-80vh max-customlg:max-h-max flex flex-col items-center bg-slate-50">
+        <div className="lg:shadow-md p-4 h-screen max-customlg:min-h-80vh max-customlg:max-h-max flex flex-col items-center bg-slate-50000">
             <div className="">
                 <Searchbar />
                 <ModeToggle />
