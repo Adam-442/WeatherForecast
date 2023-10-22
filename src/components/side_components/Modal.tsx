@@ -4,11 +4,13 @@ import Modal from "@mui/joy/Modal";
 import ModalDialog from "@mui/joy/ModalDialog";
 import DialogTitle from "@mui/joy/DialogTitle";
 import DialogContent from "@mui/joy/DialogContent";
-import { Card, Grid } from "@mui/joy";
+import { Card, Grid, VariantProp } from "@mui/joy";
 
 function SmallFrameworkCard(props: {title: string, image: string, link: string, description?: string}) {
+    const [cardVariant, setCardVariant] = React.useState<VariantProp>('plain');
+
     return (
-        <Card variant="plain" sx={{paddingBottom: "0.75rem", cursor: 'pointer', ":hover": {backgroundColor: 'whitesmoke'}}}>
+        <Card variant={cardVariant} onMouseOver={()=> setCardVariant('soft')} onMouseLeave={()=> setCardVariant('plain')} sx={{paddingBottom: "0.75rem", cursor: 'pointer'}}>
             <a href={props.link} target="_blank" className="flex flex-col items-center">
                 <img src={props.image} alt={props.title} className="aspect-square w-24" />
                 <p className="mt-5 font-bold text-center whitespace-nowrap max-sm:text-sm">{props.title}</p>
@@ -23,7 +25,7 @@ export default function FadeModalDialog() {
     <React.Fragment>
       <p
         onClick={() => setOpen(true)}
-        className="text-xs font-extralight mt-3 cursor-pointer text-center hover:text-yellow-600 transition-colors"
+        className="text-xs font-light mt-3 cursor-pointer text-center text-[var(--joy-palette-primary-400)] hover:font-extrabold active:scale-75 transition-all"
       >
         MADE BY ADAM ABU SAAB
       </p>

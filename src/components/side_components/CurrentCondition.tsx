@@ -13,7 +13,7 @@ export function CurrentCondition() {
         data?
         <div>
             <div className="flex flex-col items-center">
-                <Chip variant="soft" color="neutral" size="md" sx={{marginBottom: '0.5rem'}}>Last Updated: {data.title}</Chip>
+                <Chip variant="soft" color="primary" size="md" sx={{marginBottom: '0.5rem'}}>Last Updated: {data.title}</Chip>
                 <p className={"font-bold text-sm".concat(data.isNight? "text-blue-400": "text-yellow-500")}>{data.condition.description}</p>
                 <Condition condition={data.condition}/>
             </div>

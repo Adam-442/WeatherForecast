@@ -27,7 +27,7 @@ export default function TopSection() {
                             <ConditionCard key={'ConditionCard@'.concat(fhour.time)} date="hour" data={fhour} />
                             {/* Add Divider When tomorrow hours are being shown */}
                             {23-thisHour===index? <Divider key={'MidnightDivider@'.concat(fhour.time)} orientation="vertical">
-                                <Chip variant="soft" color="neutral" size="sm">Midnight</Chip>
+                                <Chip variant="soft" color="primary" size="sm">Midnight</Chip>
                             </Divider>: null} 
                         </Fragment>
                         )}

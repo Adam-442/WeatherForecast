@@ -49,6 +49,8 @@ export default function CitySearchBar() {
     <FormControl>
       <FormLabel>Location</FormLabel>
       <Autocomplete
+        // variant='soft'
+        color='primary'
         sx={{width: 250}}
         forcePopupIcon={false}
         placeholder="Search for a city..."

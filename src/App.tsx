@@ -8,6 +8,7 @@ import Sidebar from './components/side_components/Sidebar';
 import BottomSection from './components/bottom_components/BottomSection';
 import { weatherAPIinterface } from './state/weatherAPIInterface';
 import { Sheet } from '@mui/joy';
+import { colorSwitcher } from './style/colorSwitcher';
 
 function App() {  
   const dispatch = useAppDispatch()
@@ -42,7 +43,9 @@ function App() {
           <Grid xs={12} sm={12} md={3.5} lg={2.5}><Sidebar /></Grid>
           <Grid xs={12} sm={12} md={8.5} lg={9.5}>
             <TopSection />
-            <Divider sx={{'--Divider-childPosition': '1%', marginY: '0.5rem'}}><p className='font-bold'>More Details</p></Divider>
+            <Divider sx={{'--Divider-childPosition': '1%', marginY: '0.5rem', 
+                    ":before, ::after": {background: colorSwitcher('primary-700', 'primary-300')}}}>
+              <p className='font-bold'>More Details</p></Divider>
             <BottomSection />
           </Grid>
       </Grid>

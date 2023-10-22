@@ -9,10 +9,10 @@ export default function DHToggle() {
     const degreeRedux = useAppSelector((state) => state.weather.degree);
     const dispatch = useAppDispatch();
     return (
-        <ToggleButtonGroup size="md" spacing={0} color="neutral" value={degreeRedux} onChange={
+        <ToggleButtonGroup size="md" spacing={0} variant="outlined" color="primary" value={degreeRedux} onChange={
             (_, n) => {if (typeof n === 'string') dispatch(setDegree(n));}}>
-            <Button value="c" variant="outlined" sx={{borderTopLeftRadius: 999, borderBottomLeftRadius: 999}}>°C</Button>
-            <Button value="f" variant="outlined" sx={{borderTopRightRadius: 999, borderBottomRightRadius: 999}}>°F</Button>
+            <Button value="c" sx={{borderTopLeftRadius: 999, borderBottomLeftRadius: 999}}>°C</Button>
+            <Button value="f" sx={{borderTopRightRadius: 999, borderBottomRightRadius: 999}}>°F</Button>
         </ToggleButtonGroup>
     )
 }

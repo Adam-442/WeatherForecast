@@ -5,6 +5,7 @@ import { Forecastday, Hour } from "../../state/weatherAPIInterface";
 import { getConditionData } from "../../state/conditionHelper";
 import { useAppDispatch, useAppSelector } from "../../state/hooks";
 import { Condition } from "../Condition";
+import { colorSwitcher } from "../../style/colorSwitcher";
 
 function isSame(thisCard: Hour | Forecastday, lastSelected: Hour | Forecastday) {
     if ("date" in thisCard && "date_epoch" in lastSelected)
@@ -23,7 +24,7 @@ export default function ConditionCard(props: {date: dateType, data: Hour | Forec
 
     return (
         <Card variant="soft" color="neutral" orientation="horizontal" sx={{minWidth: 'max-content', paddingY: '0.4rem', border: '2px solid',
-        borderColor: isSame(props.data, lastSelected)? (data?.isNight? "lightblue": "navajowhite") : "transparent"}} onClick={() => dispatch(setLastSelected(props.data))}>
+        borderColor: isSame(props.data, lastSelected)? (data?.isNight?  colorSwitcher('primary-400', 'primary-300'): colorSwitcher('warning-400', 'warning-300')) : "transparent"}} onClick={() => dispatch(setLastSelected(props.data))}>
             
             {data? <>
             <div className="">
