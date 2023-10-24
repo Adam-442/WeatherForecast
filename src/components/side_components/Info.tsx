@@ -66,8 +66,9 @@ export default function FadeModalDialog() {
             >
               <DialogTitle><p>Built By <a href="https://adamsaab.me" target="_blank" className="text-blue-500 font-bold hover:underline">ADAM ABU SAAB</a> Using:</p></DialogTitle>
               <DialogContent sx={{overflow: 'hidden'}}>
-                <Grid container columns={3} spacing={1}>
+                <Grid container columns={2} spacing={1}>
                     <Grid xs={1}><SmallFrameworkCard title='React' image='https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' link="https://react.dev/"/></Grid>
+                    <Grid xs={1}><SmallFrameworkCard title='Redux' image='https://www.svgrepo.com/show/303557/redux-logo.svg' link="https://redux.js.org/"/></Grid>
                     <Grid xs={1}><SmallFrameworkCard title='Tailwind' image='https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg' link="https://tailwindcss.com/"/></Grid>
                     <Grid xs={1}><SmallFrameworkCard title='Material UI' image='https://upload.wikimedia.org/wikipedia/commons/d/dc/Logo_material_design.svg' link="https://mui.com/"/></Grid>
                 </Grid>

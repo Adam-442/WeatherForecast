@@ -1,7 +1,7 @@
 import { CurrentCondition } from "./CurrentCondition";
 import CurrentLocation from "./CurrentLocation";
 import Searchbar from "./Searchbar";
-import FadeModalDialog from "./Modal";
+import FadeModalDialog from "./Info";
 import ModeToggle from "./NightButton";
 
 export default function Sidebar() {
