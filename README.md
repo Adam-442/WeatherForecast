@@ -7,10 +7,10 @@ Created with **React.js**, this website functions adapts to various devices, off
 # Screenshots
 
 Dark  Mode:
-![Dark Mode - Desktop](https://i.ibb.co/C1rVnk7/Dark.png)
+![Dark Mode - Desktop](https://github.com/Adam-442/WeatherForecast/assets/98691783/6a39c8e4-35a6-4224-ab8a-b7a8af272d74)
 
 Light Mode:
-![Light Mode - Desktop](https://i.ibb.co/YhCxSvP/Light.png)
+![Light Mode - Desktop](https://github.com/Adam-442/WeatherForecast/assets/98691783/04ab8341-2e4a-461a-900e-b122c3cfa0a5)
 
 # Frameworks
 
