@@ -55,10 +55,12 @@ function pressureIcon(value: number) {
 }
 
 function uvIcon(value: number) {
+    value = Math.round(value);
     return value < 12 ? `uv-index-${value}` : 'uv-index-12';
 }
 
 function uvValue(value: number) {
+    value = Math.round(value);
     if (value < 3) return 'Low';
     if (value < 6) return 'Moderate';
     if (value < 8) return 'High';
